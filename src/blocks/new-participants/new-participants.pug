@@ -1,0 +1,53 @@
+include ../explanation-panel/explanation-panel.pug
+
+
+.new-participants
+	.mb-16
+		+explanation-panel("Новые участники")
+	.cards
+		.card-wr
+			.card.new-participants__card
+				.new-participants__top
+					.new-participants__photo
+						img(src="img/new-participant-1.png" alt="photo")
+						.new-participants__status
+					.new-participants__info
+						.new-participants__name Esther Howard
+						.new-participants__location St.Petersburg, Russia
+				.new-participants__tags
+					span ai
+					span marketing
+					span consultation
+					span team
+					span analytics
+
+		.card-wr
+			.card
+				.new-participants__top
+					.new-participants__photo
+						img(src="img/new-participant-2.png" alt="photo")
+						.new-participants__status.new-participants__status--offline
+					.new-participants__info
+						.new-participants__name Cameron Williamson
+						.new-participants__location St.Petersburg, Russia
+				.new-participants__tags
+					span marketing
+					span team
+					span analytics
+					span consulting
+
+		.card-wr
+			.card
+				.new-participants__top
+					.new-participants__photo
+						img(src="img/new-participant-3.png" alt="photo")
+						.new-participants__status
+					.new-participants__info
+						.new-participants__name Алексей Гончар
+						.new-participants__location St.Petersburg, Russia
+				.new-participants__tags
+					span team
+					span analytics
+					span consulting
+					span eco
+					span fintech

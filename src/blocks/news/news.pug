@@ -1,0 +1,12 @@
+include ../explanation-panel/explanation-panel.pug
+
+.news
+	.mb-16
+		+explanation-panel("Новости", null, null, "Сегодня", 2)
+	.news__items
+		a.news__item
+			span Mission Space подняли 100 мультов и не знают...
+			include ../../assets/svg/arrow-right.svg
+		a.news__item
+			span Как сделать питч презентацию и не уснуть во вр...
+			include ../../assets/svg/arrow-right.svg

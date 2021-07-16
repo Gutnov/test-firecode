@@ -1,0 +1,25 @@
+.mutual-help__feedback {
+	display: flex;
+	align-items: center;
+}
+
+.mutual-help__feedback-item {
+	display: flex;
+	align-items: center;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 16px;
+	cursor: pointer;
+
+	&:first-child {
+		margin-right: 8px;
+	}
+
+	svg {
+		margin-right: 2px;
+	}
+}
+
+.mutual-help__author {
+	margin-bottom: 24px;
+}

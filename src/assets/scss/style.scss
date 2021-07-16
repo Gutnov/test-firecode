@@ -1,0 +1,22 @@
+/* mixins */
+@import "base/mixins.scss";
+
+/* base */
+@import "base/fonts";
+@import "base/variables";
+@import "base/normalize";
+@import "base/typography";
+@import "base/default";
+@import "base/prettify";
+
+/* blocks */
+@import "blocks/header/header";
+@import "blocks/sidebar/sidebar";
+@import "blocks/news/news";
+@import "blocks/events/events";
+@import "blocks/mutual-help/mutual-help";
+@import "blocks/new-participants/new-participants";
+@import "blocks/explanation-panel/explanation-panel";
+
+/* pages */
+@import "pages/index/index";

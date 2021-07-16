@@ -1,0 +1,10 @@
+mixin explanation-panel(title, textFirst, numberFirst, textSecond, numberSecond)
+	.explanation-panel
+		h2.explanation-panel__title #{title}
+		if textFirst
+			.explanation-panel__info #{textFirst}:
+				span #{numberFirst}
+		if textSecond
+			.explanation-panel__info #{textSecond}:
+				span #{numberSecond}
+		.explanation-panel__all Смотреть все

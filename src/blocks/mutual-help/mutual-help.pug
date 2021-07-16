@@ -1,0 +1,49 @@
+include ../explanation-panel/explanation-panel.pug
+
+.mutual-help
+	.mb-16
+		+explanation-panel("Взаимопомощь", "Всего", 134)
+	.cards
+		.card-wr
+			.card
+				div
+					.card-title Изучение языков. Куда бежать?
+					.card-category.mutual-help__author
+						img(src="img/help-1.png" alt="")
+						span Алексей Кончаловский
+				.mutual-help__feedback
+					.mutual-help__feedback-item
+						include ../../assets/svg/comment.svg
+						|5
+					.mutual-help__feedback-item
+						include ../../assets/svg/ok.svg
+						|5
+		.card-wr
+			.card
+				div
+					.card-title Налоговый вычет
+					.card-category.mutual-help__author
+						img(src="img/help-2.png" alt="")
+						span Алексей Кончаловский
+				.mutual-help__feedback
+					.mutual-help__feedback-item
+						include ../../assets/svg/comment.svg
+						|5
+					.mutual-help__feedback-item
+						include ../../assets/svg/ok.svg
+						|5
+		.card-wr
+			.card
+				div
+					.card-title Ищу директора по маркетингу или начальни...
+					.card-category.mutual-help__author
+						img(src="img/help-3.png" alt="")
+						span Алексей Кончаловский
+				.mutual-help__feedback
+					.mutual-help__feedback-item
+						include ../../assets/svg/comment.svg
+						|5
+					.mutual-help__feedback-item
+						include ../../assets/svg/ok.svg
+						|5
+

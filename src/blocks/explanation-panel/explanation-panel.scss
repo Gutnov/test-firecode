@@ -1,0 +1,38 @@
+.explanation-panel {
+	display: flex;
+	align-items: center;
+}
+
+.explanation-panel__title {
+	margin-bottom: 0;
+	margin-right: 13px;
+	font-size: 20px;
+	line-height: 22px;
+	font-weight: 700;
+	color: #4a0a52;
+}
+
+.explanation-panel__info {
+	margin-right: 4px;
+	font-size: 12px;
+	line-height: 14px;
+	color: #727272;
+
+	span {
+		margin-left: 4px;
+		color: #4a0a52;
+	}
+}
+
+.explanation-panel__all {
+	margin-left: auto;
+	text-decoration: underline;
+	font-weight: 600;
+	cursor: pointer;
+	font-size: 13px;
+	//line-height: 16px;
+
+	&:hover {
+		text-decoration: none;
+	}
+}

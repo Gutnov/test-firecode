@@ -1,0 +1,84 @@
+include ../explanation-panel/explanation-panel.pug
+.events
+	.mb-16
+		+explanation-panel("Ближайшие события", "Всего", 45, "Сегодня", 4)
+	.cards
+		.card-wr
+			.card
+				div
+					.events__card-top
+						.events__card-date Чт Дек 4 / 18:00
+						.events__card-top-label Zoom
+					h3.card-title
+						|Angel Talks #32. Алексей Поспехов (Mission Space)...
+					.card-category
+						include ../../assets/svg/avatar.svg
+						span Angel Talks
+				.events__card-bottom
+					.events__card-participants
+						ul
+							li
+								a(href="")
+									img(src="img/participant-1.png" alt="alt")
+							li
+								a(href="")
+									img(src="img/participant-2.png" alt="alt")
+							li
+								a(href="")
+									img(src="img/participant-3.png" alt="alt")
+						.events__card-other +45
+					.events__card-bottom-label
+						include ../../assets/svg/people.svg
+						|Иду!
+
+		.card-wr
+			.card
+				div
+					.events__card-top
+						.events__card-date Пт Дек 5 / 12:30
+						.events__card-top-label Zoom
+					h3.card-title
+						|Как сделать питч презентацию для инвест...
+					.card-category
+						include ../../assets/svg/avatar.svg
+						span Идеальный штурм
+				.events__card-bottom
+					.events__card-participants
+						ul
+							li
+								a(href="")
+									img(src="img/participant-1.png" alt="alt")
+							li
+								a(href="")
+									img(src="img/participant-3.png" alt="alt")
+					.events__card-bottom-label
+						include ../../assets/svg/people.svg
+						|Иду!
+
+		.card-wr
+			.card
+				div
+					.events__card-top
+						.events__card-date Пн Дек 8 / 22:00
+						.events__card-top-label Zoom
+					h3.card-title
+						|Как прошли праздники?
+					.card-category
+						include ../../assets/svg/avatar.svg
+						span M.Music
+				.events__card-bottom
+					.events__card-participants
+						ul
+							li
+								a(href="")
+									img(src="img/participant-1.png" alt="alt")
+							li
+								a(href="")
+									img(src="img/participant-2.png" alt="alt")
+							li
+								a(href="")
+									img(src="img/participant-3.png" alt="alt")
+						.events__card-other +8
+					.events__card-bottom-label
+						include ../../assets/svg/people.svg
+						|Иду!

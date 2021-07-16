@@ -1,0 +1,28 @@
+doctype html
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		meta(http-equiv="X-UA-Compatible" content="IE=edge")
+		meta(name="viewport" content="width=device-width, initial-scale=1.0")
+		title Document
+		link(rel="stylesheet" href="./style.css")
+	body
+		include ./blocks/header/header.pug
+		.container
+			.main-wrap
+				include ./blocks/sidebar/sidebar.pug
+				.container-content
+					.reference.mb-27
+						.reference-text Справочник Места
+						include ./assets/svg/arrow-down.svg
+					.mb-27
+						include ./blocks/news/news.pug
+					.mb-27
+						include ./blocks/events/events.pug
+					.mb-27
+						include ./blocks/mutual-help/mutual-help.pug
+					.mb-27
+						include ./blocks/new-participants/new-participants.pug
+
+
+

@@ -1,0 +1,67 @@
+.new-participants__card {
+	overflow-x: hidden;
+}
+
+.new-participants__tags {
+	overflow-x: scroll;
+	&::-webkit-scrollbar {
+		width: 0 !important;
+	}
+}
+
+.new-participants__top {
+	display: flex;
+	margin-bottom: 16px;
+}
+
+.new-participants__photo {
+	margin-right: 10px;
+	position: relative;
+}
+
+.new-participants__status {
+	position: absolute;
+	bottom: 2px;
+	right: -4px;
+	width: 12px;
+	height: 12px;
+	background: #00ffc2;
+	border: 2px solid #ffffff;
+
+	&--offline {
+		background-color: #b6afbc;
+	}
+}
+
+.new-participants__name {
+	margin-bottom: 8px;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 19px;
+	color: #320e3f;
+}
+
+.new-participants__location {
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 16px;
+	color: #727272;
+}
+
+.new-participants__tags {
+	display: flex;
+	margin-bottom: -16px;
+
+	span {
+		display: inline-block;
+		padding: 1px 4px;
+		margin-right: 4px;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 11px;
+		line-height: 14px;
+		color: #727272;
+		border: 1px solid #f1f1f1;
+		border-radius: 2px;
+	}
+}
